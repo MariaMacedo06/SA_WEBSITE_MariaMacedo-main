@@ -1,27 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amostra</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelForge Studios - Home</title>
+  <link rel="icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jXEb9OT9epLQiL3EHLzn1s038LUbAIYNRg&s" />
+  <!-- importação Google Icons --><!-- VEM PRIMEIRO -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+  <!-- importação do Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Importação do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Importação do CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-    <u>
-      <h1><b>PixelForge Studios</b></h1>
-      <h2>Desenvolvimento de jogos e experiências digitais</h2>
+
+<body class="bg-body-tertiary container">
+  <!-- Cabeçalho da página -->
+  <header>
     </u>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./tabela.html">Tabela</a></li>
-        <li><a href="./galeria.html">Galeria</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fs-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <h1><b class="text-warning">PixelForge</b> <b>Studios</b></h1>
+        </a>
+        <!-- <h2>Onde a criatividade encontra a gameplay.</h2> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./tabela.html">Tabela</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contato.html">Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
   <hr>
   <main>
-    <section>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Descrição</th>
+          <th scope="col">Lançamento</th>
+          <th scope="col">Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><img src="./images/Teclado.webp" class="rounded w-50" alt="Teclado"></th>
+          <td>Dispositivo de entrada usado para digitar letras, números e comandos no computador.</td>
+          <td>01/01/2026</td>
+          <td>R$ 2.658,00</td>
+        </tr>
+        <tr>
+          <th scope="row"><img src="./images/Mouse.webp" class="rounded w-50" alt="Mouse"></th>
+          <td>Dispositivo de entrada usado para controlar o cursor do computador.</td>
+          <td>01/02/2026</td>
+          <td>R$ 123,00</td>  
+        </tr>
+        <tr>
+          <th scope="row"><img src="./images/Monitor.jpg" class="rounded w-50" alt="Monitor"></th>
+          <td>Dispositivo de saída usado para exibir imagens e vídeos.</td>
+          <td>01/03/2026</td>
+          <td>R$ 810,00</td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- <section>
         <h3>Título da Página 2</h3>
         <table border="5">
                 <thead>
@@ -53,14 +119,16 @@
                     </tr>
                 </tbody>
             </table>
-    </section>
+    </section> -->
   </main>
   <hr>
   <footer>
     <p>
-      Email: contatopixelforge@gmail.com &nbsp;&nbsp;&nbsp;Telefone: (27)
-      99642-5162 &nbsp;&nbsp;&nbsp; Ano: 2026
+      Email: contatopixelforge@gmail.com &nbsp;&nbsp;&nbsp;
+      Telefone: (27)99642-5162 &nbsp;&nbsp;&nbsp; 
+      Ano: 2026
     </p>
   </footer>
 </body>
+
 </html>
