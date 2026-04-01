@@ -34,31 +34,77 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"><span
+                  class="material-symbols-outlined">home</span>Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./tabela.html">Tabela</a>
+              <a class="nav-link active" href="./tabela.html"><span
+                  class="material-symbols-outlined">table_chart</span>Tabela</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./galeria.html">Galeria</a>
+              <a class="nav-link active" href="./galeria.html"><span
+                  class="material-symbols-outlined">photo_library</span>Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="./contato.html">Contato</a>
+              <u><a class="nav-link active" href="./contato.html"><span
+                    class="material-symbols-outlined">contact_support</span>Contato</a></u>
             </li>
           </ul>
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button class="btn btn-outline-success d-flex" type="submit"><span
+                class="material-symbols-outlined">search</span>Search</button>
           </form>
         </div>
       </div>
     </nav>
   </header>
-
+  <main>
+    <div class="mb-3 row">
+      <label for="inputNome" class="col-sm-2 col-form-label">Nome</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputNome" value="">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputEmail" value="email@example.com">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="inputTelefone" class="col-sm-2 col-form-label">Telefone</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputTelefone" value="">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="inputAssunto" class="col-sm-2 col-form-label">Assunto</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputAssunto" value="">
+      </div>
+    </div>
+    <div class="mb-3 row">
+      <label for="inputMensagem" class="col-sm-2 col-form-label">Mensagem</label>
+      <div class="col-sm-10">
+        <textarea class="form-control" id="inputMensagem" rows="3"></textarea>
+      </div>
+    </div>
+    <button class="btn btn-success d-flex" type="submit">
+      <span class="material-symbols-outlined">save</span>
+      Enviar
+    </button>
+  </main>
   <hr>
   <footer>
-    <p>Email: pixelforgestudios@gmail.com &nbsp;&nbsp;&nbsp; 
-      Contato: 27 99642-5162 &nbsp;&nbsp;&nbsp; 
+    <p>Email: pixelforgestudios@gmail.com &nbsp;&nbsp;&nbsp;
+      Contato: 27 99642-5162 &nbsp;&nbsp;&nbsp;
       Ano: 2026</p>
   </footer>
 </body>
